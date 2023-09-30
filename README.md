@@ -76,8 +76,8 @@ To run this application locally, follow these steps:
 
 3. Explore the various features, including the sidebar navigation, sales reports, and any other implemented functionalities.
 
-# Future Enhancements
-Plans for the future of this SaaS Client Dashboard React App:
+# Plans for Task Completion
+Plans for the task completion of this SaaS Client Dashboard React App:
 
 - Geolocation-Based Sales Insights: Finalize the integration of D3.js to provide geolocation-based sales analytics.
 
