@@ -1,0 +1,112 @@
+body {
+  background-color: black;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* styles.css */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 999px;
+  padding: 8px 16px;
+  margin-left: 15rem;
+  width: 300px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  background-color: black;
+  width: 100%;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  color: rgb(255, 255, 255); /* Adjust icon color as needed */
+}
+
+.welcome-container {
+  display: flex;
+  justify-content: space-between; /* Align text and buttons on the same line with space between them */
+  align-items: center; /* Align vertically in the middle */
+}
+
+.welcome-text {
+  font-size: 40px; /* Increase font size as needed */
+  color: #777; /* Light gray color for "Welcome back" */
+  margin-left: 210px;
+  padding: 25px;
+}
+
+.welcome-text span {
+  color: #333; /* Dark gray color for "Jessica" */
+}
+
+.button-container {
+  display: flex;
+  gap: 16px; /* Adjust the gap size as needed */
+}
+
+.action-button {
+  background-color: transparent;
+  color: #777; /* Set the default text color */
+  border-color: #777;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+}
+
+.action-button:hover {
+  background-color: white; /* Change background color on hover */
+  color: black; /* Change text color on hover */
+}
+
+.button-icon {
+  width: 24px; /* Adjust the desired width */
+  height: 15px; /* Adjust the desired height */
+  margin-right: 8px;
+}
+
+.sales-report-widget {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin-top: 20px; /* Add spacing between the widget and other elements */
+  background-color: white; /* Set the background color of the widget */
+}
+
+.widget-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.widget-spacing {
+  margin-left: 20px; /* Adjust the margin as needed */
+}
+
+.bottom-widget-container {
+  display: flex;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}

@@ -1,0 +1,15 @@
+.sales-location-card {
+  background-color: #151618;
+  width: 700px; /* Adjust the width as needed */
+  height: 350px; /* Adjust the height as needed */
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  margin-right: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+h2 {
+  text-align: left;
+}
